@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
+    
+<title>Cardápio — Aquários Restaurante</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/menu-list.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="brand">
+     <img src="assets/images/logo/logo_peixe02.webp" alt="image-logo">
+
+  </a>
+  <nav class="main-nav" id="mainNav">
+    <a href="index.html">Início</a>
+    <a href="#" class="is-active">Cardápio</a>
+
+  </nav>
+  <div class="header-right">
+    <div class="lang-switch">
+      <span class="is-active">PT</span><span>EN</span><span>ES</span>
+    </div>
+    <a href="https://wa.me/5521979313732" target="_blank" class="whatsapp-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<nav class="cat-nav" aria-label="Navegação do cardápio">
+  <div class="cat-nav-inner">
+    <ul class="cat-list" id="catList">
+      <li><a href="#comecar" class="cat-chip" data-target="comecar">Entradas</a></li>
+      <li><a href="#arroz-massas" class="cat-chip" data-target="arroz-massas">Arroz e Massas</a></li>
+      <li><a href="#do-mar" class="cat-chip" data-target="do-mar">Do mar</a></li>
+      <li><a href="#carnes" class="cat-chip" data-target="carnes">Carnes &amp; Porções</a></li>
+      <li><a href="#bar" class="cat-chip" data-target="bar">Bar</a></li>
+      <li><a href="#sem-alcool" class="cat-chip" data-target="sem-alcool">Sem álcool</a></li>
+      <li><a href="#sobremesas" class="cat-chip" data-target="sobremesas">Sobremesas &amp; Café</a></li>
+      <li><a href="#vinhos" class="cat-chip" data-target="vinhos">Vinhos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <section class="menu-section" id="comecar">
+    <div class="section-title"><h2>Entradas</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Entradas</h3><span class="group-tag">Cozinha</span></div>
+
+      <div class="item"><div class="item-info"><h4>Camarão / Caranguejo</h4><p>Pastéis UND.</p></div><div class="item-price">15</div></div>
+      <div class="item"><div class="item-info"><h4>Carne / Queijo / Palmito</h4><p>Pastéis UND.</p></div><div class="item-price">12</div></div>
+      <div class="item"><div class="item-info"><h4>Casquinha de Caranguejo</h4><p>UND.</p></div><div class="item-price">40</div></div>
+      <div class="item"><div class="item-info"><h4>Bolinho de Bacalhau</h4><p>12 UND.</p></div><div class="item-price">85</div></div>
+      <div class="item"><div class="item-info"><h4>Ceviche de Peixe</h4><p>Peixe branco, limão, cebola roxa e coentro.</p></div><div class="item-price">58</div></div>
+      <div class="item"><div class="item-info"><h4>Batata Frita</h4><p>450g.</p></div><div class="item-price">36</div></div>
+      <div class="item"><div class="item-info"><h4>Iscas de Peixe</h4><p>500g.</p></div><div class="item-price">85</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="arroz-massas">
+    <div class="section-title"><h2>Arroz e Massas</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Arroz e Massas</h3><span class="group-tag">Cozinha</span></div>
+
+      <div class="item"><div class="item-info"><h4>Risoto de Camarão</h4><p>450g.</p></div><div class="item-price">98</div></div>
+      <div class="item"><div class="item-info"><h4>Espaguete aos Frutos do Mar</h4><p>500g.</p></div><div class="item-price">120</div></div>
+      <div class="item"><div class="item-info"><h4>Arroz de Polvo</h4><p>480g.</p></div><div class="item-price">110</div></div>
+      <div class="item"><div class="item-info"><h4>Fettuccine ao Molho Branco com Camarão</h4><p>470g.</p></div><div class="item-price">105</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="do-mar">
+    <div class="section-title"><h2>Do mar</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Peixes &amp; Frutos do Mar</h3><span class="group-tag">Cozinha</span></div>
+
+      <div class="item"><div class="item-info"><h4>Moqueca de Camarão</h4><p>Serve 2 pessoas.</p></div><div class="item-price">180</div></div>
+      <div class="item"><div class="item-info"><h4>Peixe Grelhado do Dia</h4><p>Escolha filé ou posta.</p></div><div class="item-price">Sob consulta</div></div>
+      <div class="item"><div class="item-info"><h4>Camarão à Baiana</h4><p>450g.</p></div><div class="item-price">145</div></div>
+      <div class="item"><div class="item-info"><h4>Lula à Dorê</h4><p>400g.</p></div><div class="item-price">78</div></div>
+      <div class="item"><div class="item-info"><h4>Moqueca de Peixe da Temporada com Camarões</h4><p>Escolha filé ou posta.</p></div><div class="item-price">Sob consulta</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="carnes">
+    <div class="section-title"><h2>Carnes &amp; Porções</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Carnes grelhadas</h3><span class="group-tag">Cozinha</span></div>
+      <p class="subgroup-label">Individuais</p>
+
+      <div class="item"><div class="item-info"><h4>Picanha Premium</h4><p>Acompanha arroz à grega, batata prussiana, farofa de ovos e chimichurri.</p></div><div class="item-price">120</div></div>
+      <div class="item"><div class="item-info"><h4>Filé Mignon ao Molho Madeira</h4><p>Acompanha arroz à piamontese e fritas.</p></div><div class="item-price">110</div></div>
+      <div class="item"><div class="item-info"><h4>Filé Mignon com Arroz de Funghi</h4><p>Acompanha molho chimichurri.</p></div><div class="item-price">130</div></div>
+      <div class="item"><div class="item-info"><h4>Filé de Frango</h4><p>Acompanha arroz branco, batatas fritas e azeite de alecrim.</p></div><div class="item-price">91</div></div>
+      <div class="item"><div class="item-info"><h4>Pallard de Filé com Fettuccine à la Creme</h4><p></p></div><div class="item-price">130</div></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h3>Porções</h3><span class="group-tag">Cozinha</span></div>
+
+      <div class="item"><div class="item-info"><h4>Arroz / Feijão / Purê / Farofa de Ovos</h4><p></p></div><div class="item-price">39</div></div>
+      <div class="item"><div class="item-info"><h4>Fritas</h4><p>450g.</p></div><div class="item-price">42</div></div>
+      <div class="item"><div class="item-info"><h4>Anéis de Cebola Empanados</h4><p></p></div><div class="item-price">46</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="bar">
+    <div class="section-title"><h2>Bar</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Coquetéis</h3><span class="group-tag">Bar</span></div>
+
+      <div class="item"><div class="item-info"><h4>Caipirinha de Limão</h4><p></p></div><div class="item-price">32</div></div>
+      <div class="item"><div class="item-info"><h4>Caipirinha de Frutas Vermelhas</h4><p></p></div><div class="item-price">38</div></div>
+      <div class="item"><div class="item-info"><h4>Aperol Spritz</h4><p></p></div><div class="item-price">44</div></div>
+      <div class="item"><div class="item-info"><h4>Gin Tônica Aquários</h4><p>Ervas e cítricos da mata atlântica.</p></div><div class="item-price">46</div></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h3>Cervejas</h3></div>
+
+      <div class="item"><div class="item-info"><h4>Chopp Artesanal</h4><p>300ml.</p></div><div class="item-price">22</div></div>
+      <div class="item"><div class="item-info"><h4>Cerveja Long Neck</h4><p></p></div><div class="item-price">18</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="sem-alcool">
+    <div class="section-title"><h2>Sem álcool</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Sem álcool</h3><span class="group-tag">Bar</span></div>
+
+      <div class="item"><div class="item-info"><h4>Limonada Suíça</h4><p></p></div><div class="item-price">26</div></div>
+      <div class="item"><div class="item-info"><h4>Suco de Frutas da Estação</h4><p></p></div><div class="item-price">24</div></div>
+      <div class="item"><div class="item-info"><h4>Água de Coco Gelada</h4><p></p></div><div class="item-price">18</div></div>
+      <div class="item"><div class="item-info"><h4>Refrigerante</h4><p>Lata.</p></div><div class="item-price">12</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="sobremesas">
+    <div class="section-title"><h2>Sobremesas &amp; Café</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Sobremesas</h3><span class="group-tag">Cozinha</span></div>
+
+      <div class="item"><div class="item-info"><h4>Petit Gâteau com Sorvete</h4><p></p></div><div class="item-price">42</div></div>
+      <div class="item"><div class="item-info"><h4>Pudim de Leite Condensado</h4><p></p></div><div class="item-price">32</div></div>
+      <div class="item"><div class="item-info"><h4>Torta de Limão</h4><p></p></div><div class="item-price">36</div></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h3>Café</h3></div>
+
+      <div class="item"><div class="item-info"><h4>Espresso</h4><p></p></div><div class="item-price">12</div></div>
+      <div class="item"><div class="item-info"><h4>Café com Leite</h4><p></p></div><div class="item-price">15</div></div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="vinhos">
+    <div class="section-title"><h2>Vinhos</h2><div class="divider"></div></div>
+
+    <div class="group">
+      <div class="group-head"><h3>Vinhos Brancos</h3></div>
+      <div class="item"><div class="item-info"><h4>Chardonnay Reserva</h4><p>Taça.</p></div><div class="item-price">34</div></div>
+      <div class="item"><div class="item-info"><h4>Sauvignon Blanc</h4><p>Garrafa.</p></div><div class="item-price">145</div></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h3>Vinhos Tintos</h3></div>
+      <div class="item"><div class="item-info"><h4>Malbec Reserva</h4><p>Taça.</p></div><div class="item-price">38</div></div>
+      <div class="item"><div class="item-info"><h4>Cabernet Sauvignon</h4><p>Garrafa.</p></div><div class="item-price">160</div></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h3>Espumantes</h3></div>
+      <div class="item"><div class="item-info"><h4>Prosecco</h4><p>Taça.</p></div><div class="item-price">30</div></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/js/menu-list.js"></script>
+
+</body>
+</html>

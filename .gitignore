@@ -1,0 +1,7 @@
+# sistema
+.DS_Store
+Thumbs.db
+
+# editor / ferramentas locais
+.vscode/
+CLAUDE.md
